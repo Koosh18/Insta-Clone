@@ -1,0 +1,54 @@
+.container {
+    position: relative;
+    height: 200vh;
+
+  }
+  
+  .card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    
+  }
+  
+  .heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  .button {
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .red-toast {
+    background-color: red;
+    color: white;
+  }
+  
+  .green-toast {
+    background-color: green;
+    color: white;
+  }
+  
+  

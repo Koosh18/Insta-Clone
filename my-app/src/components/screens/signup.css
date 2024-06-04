@@ -1,0 +1,86 @@
+/* Container for the card */
+.card {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  background-color: #ffffff;
+}
+
+/* Styling for the heading */
+.card h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Input fields */
+.card input[type="text"],
+.card input[type="email"],
+.card input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Upload button container */
+.btn.file-upload-button {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  color: #fff;
+  background-color: #26a69a;
+  padding: 10px 20px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* File input field */
+.file-upload-input {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 100px;
+  cursor: pointer;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+/* Submit button */
+.card button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #26a69a;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background-color: #2bbbad;
+}
+
+/* Toast notifications */
+.red-toast {
+  background-color: red !important;
+  color: white !important;
+}
+
+.green-toast {
+  background-color: green !important;
+  color: white !important;
+}
