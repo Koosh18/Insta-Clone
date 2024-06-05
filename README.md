@@ -67,12 +67,15 @@ These instructions will help you set up the project on your local machine for de
 
     The server will run on the port specified in your `.env` file (default is 5000).
 
+4. Start the front end :
 
-   5. Start the frontend :
-        ```bash
+    ```bash
     cd my-app
-   npm start app.js
+    npm start app
     ```
+
+
+ 
 
 ### Project Structure
 
